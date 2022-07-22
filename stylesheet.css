@@ -1,0 +1,107 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background:url("image1.jpg")
+}
+
+header {
+    background-color: black;
+    padding: 1px;
+}
+
+.left {
+    /*border: 2px solid red;*/
+    display: inline-block;
+    position: absolute;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.left img {
+    height: 80px;
+    width: 80px;
+    margin-top: 55px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-style: oblique;
+}
+
+.mid {
+    /*border: 2px solid green;*/
+    display: block;
+    position: relative;
+    margin: 0px auto;
+    width: 25%;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin-left: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#active,a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.right {
+   /* border: 2px solid yellow;*/
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    text-align: center;
+}
+.header-btn{
+    margin-top: 14px;
+    background-color: red;
+    color:white;
+    border-radius: 8px;
+    border:none;
+    cursor: pointer;
+    padding: 5px;
+    
+}
+.header-btn:hover{
+    background-color: rgb(50, 42, 165);
+}
+
+.form-btn{
+    margin-top: 14px;
+    background-color: rgb(28, 29, 138);
+    color:white;
+    border-radius: 8px;
+    border:none;
+    cursor: pointer;
+    padding: 5px;
+    width: 70px;
+    
+    
+}
+.form-btn:hover{
+    background-color: rgb(50, 42, 165);
+}
+.para{
+    /*border: 3px solid black;*/
+    margin: 54px auto;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+}
+.form{
+    margin: 4px;
+}
+.sbtn{
+    background-color: brown;
+}
